@@ -1,0 +1,62 @@
+[
+  {
+    "office_id": "1",
+    "office_name": "本社",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "10",
+    "office_name": "函館営業所",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "11",
+    "office_name": "昭和営業所",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "12",
+    "office_name": "日吉営業所",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "13",
+    "office_name": "鹿部出張所",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "14",
+    "office_name": "森出張所",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "15",
+    "office_name": "知内出張所",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "16",
+    "office_name": "松前出張所",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "17",
+    "office_name": "江差営業所",
+    "office_url": "",
+    "office_phone": ""
+  },
+  {
+    "office_id": "18",
+    "office_name": "北桧山出張所",
+    "office_url": "",
+    "office_phone": ""
+  }
+]

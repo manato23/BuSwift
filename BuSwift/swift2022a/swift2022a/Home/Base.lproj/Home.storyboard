@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="viewHome" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="HomeViewController" customModule="swift2022a" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="スクリーンショット 2022-11-21 18" translatesAutoresizingMaskIntoConstraints="NO" id="mMt-Gl-eJU">
+                                <rect key="frame" x="94" y="47" width="205" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="R5I-D6-NHn"/>
+                                    <constraint firstAttribute="width" constant="205" id="cBJ-Wb-vbF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出発" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Tk-iA-YAT">
+                                <rect key="frame" x="13" y="137" width="41" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Mmz-gy-scn"/>
+                                    <constraint firstAttribute="width" constant="41" id="wv3-RX-Geg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rJ-fh-CTL">
+                                <rect key="frame" x="13" y="159" width="315" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="Dh1-pM-kDT"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="307" id="H9e-nK-muA"/>
+                                    <constraint firstAttribute="height" constant="50" id="jrP-kr-9VR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="出発バス停は？">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="z81-Hw-WYW" kind="show" identifier="toDep" id="cP2-LH-rdY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVT-Cx-meH">
+                                <rect key="frame" x="328" y="159" width="70" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Api-D0-rWm" userLabel="width = 70"/>
+                                    <constraint firstAttribute="height" constant="50" id="EtT-Nr-TB3"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="tapMapButtonDep:" destination="BYZ-38-t0r" eventType="touchUpInside" id="21x-oA-ILC"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="方位磁石のフリーアイコン素材 2 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="pCg-ql-L6z" userLabel="DepartureMap">
+                                <rect key="frame" x="328" y="163" width="61" height="43"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="mGh-pW-c4F"/>
+                                    <constraint firstAttribute="width" constant="57" id="z8r-Bi-Jp2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="到着" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="We4-RE-75u">
+                                <rect key="frame" x="13" y="298" width="41" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Ocx-Ez-Wpi"/>
+                                    <constraint firstAttribute="width" constant="41" id="x2j-ko-H2J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V96-eg-OI5">
+                                <rect key="frame" x="0.0" y="288" width="315" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="28o-ws-7jd"/>
+                                    <constraint firstAttribute="height" constant="50" id="Fyc-eS-N3k"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="307" id="ihc-Mx-SAd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="18"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="到着バス停は？">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dXT-HS-gAU" kind="show" identifier="toArr" id="tdy-KZ-ode"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="日付" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znZ-sy-oO2">
+                                <rect key="frame" x="13" y="428" width="32" height="16"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G11-GP-teJ">
+                                <rect key="frame" x="315" y="288" width="70" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="YjI-Ig-jUf"/>
+                                    <constraint firstAttribute="width" constant="70" id="pu7-O3-qqX"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <action selector="tapMapButtonArr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s0w-Fr-xgB"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ewh-BZ-Xlc" customClass="CustomeTextField" customModule="swift2022a" customModuleProvider="target">
+                                <rect key="frame" x="13" y="444" width="372" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Wh1-86-OGC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="0.0"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inu-ix-z3P">
+                                <rect key="frame" x="31" y="661" width="330" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="KY9-pA-stx"/>
+                                    <constraint firstAttribute="width" constant="330" id="keK-Wy-4gG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="検索">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="検索">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.2470588235" green="0.41568627450000001" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="30"/>
+                                    <color key="baseForegroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="方位磁石のフリーアイコン素材 2 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="uhY-SQ-sh9" userLabel="ArrivalMap">
+                                <rect key="frame" x="328" y="290" width="61" height="43"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="L9b-ay-csZ" userLabel="height = 35"/>
+                                    <constraint firstAttribute="width" constant="57" id="Ofa-Vr-WCs" userLabel="width = 57"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bVT-Cx-meH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="112" id="0PY-Rw-sWc"/>
+                            <constraint firstItem="Ewh-BZ-Xlc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="2Cm-JD-wHe"/>
+                            <constraint firstItem="V96-eg-OI5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="13" id="2E7-Zc-dTv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="inu-ix-z3P" secondAttribute="bottom" constant="94" id="2yL-fE-Ncs"/>
+                            <constraint firstItem="G11-GP-teJ" firstAttribute="top" secondItem="bVT-Cx-meH" secondAttribute="bottom" constant="79" id="3jx-45-hzq"/>
+                            <constraint firstItem="znZ-sy-oO2" firstAttribute="top" secondItem="V96-eg-OI5" secondAttribute="bottom" constant="90" id="4aL-J3-1ix"/>
+                            <constraint firstItem="Ewh-BZ-Xlc" firstAttribute="top" secondItem="znZ-sy-oO2" secondAttribute="bottom" id="4o9-0B-lIw"/>
+                            <constraint firstItem="0Tk-iA-YAT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="6AI-fc-d6p"/>
+                            <constraint firstItem="Ewh-BZ-Xlc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-13" id="Ete-ZB-Bmk"/>
+                            <constraint firstItem="bVT-Cx-meH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-13" id="G47-ea-Erh"/>
+                            <constraint firstItem="3rJ-fh-CTL" firstAttribute="top" secondItem="0Tk-iA-YAT" secondAttribute="bottom" id="Kxb-Ez-c9w"/>
+                            <constraint firstAttribute="trailing" secondItem="pCg-ql-L6z" secondAttribute="trailing" id="OvF-bf-V4N"/>
+                            <constraint firstItem="G11-GP-teJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PBw-d5-Dnx"/>
+                            <constraint firstAttribute="trailing" secondItem="uhY-SQ-sh9" secondAttribute="trailing" id="X7i-GT-546"/>
+                            <constraint firstItem="mMt-Gl-eJU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YdN-QN-NxW"/>
+                            <constraint firstItem="bVT-Cx-meH" firstAttribute="leading" secondItem="3rJ-fh-CTL" secondAttribute="trailing" id="bXa-qH-1W4"/>
+                            <constraint firstItem="G11-GP-teJ" firstAttribute="leading" secondItem="V96-eg-OI5" secondAttribute="trailing" id="dOs-e9-hVx"/>
+                            <constraint firstItem="3rJ-fh-CTL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="eYN-Gh-u4k"/>
+                            <constraint firstItem="V96-eg-OI5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hKF-3D-86A"/>
+                            <constraint firstItem="We4-RE-75u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="hyN-aT-NdR"/>
+                            <constraint firstItem="V96-eg-OI5" firstAttribute="top" secondItem="We4-RE-75u" secondAttribute="bottom" id="jKg-hF-yaP"/>
+                            <constraint firstItem="znZ-sy-oO2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="mSS-SB-ded"/>
+                            <constraint firstItem="We4-RE-75u" firstAttribute="top" secondItem="3rJ-fh-CTL" secondAttribute="bottom" constant="55" id="pm0-6j-dCr"/>
+                            <constraint firstItem="G11-GP-teJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-13" id="rQm-cI-oky"/>
+                            <constraint firstItem="bVT-Cx-meH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tAu-wS-Wce"/>
+                            <constraint firstItem="0Tk-iA-YAT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="ymI-5q-pdf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="arrivalButton" destination="V96-eg-OI5" id="eym-GL-LoB"/>
+                        <outlet property="arrivalText" destination="We4-RE-75u" id="ts2-aI-q1Q"/>
+                        <outlet property="arrivalmapImage" destination="uhY-SQ-sh9" id="pEd-3y-KsN"/>
+                        <outlet property="dateText" destination="znZ-sy-oO2" id="nKl-LJ-aNx"/>
+                        <outlet property="dateTextField" destination="Ewh-BZ-Xlc" id="dFR-hF-QOA"/>
+                        <outlet property="departureButton" destination="3rJ-fh-CTL" id="Lzo-qT-QHj"/>
+                        <outlet property="departureText" destination="0Tk-iA-YAT" id="QGs-d0-fun"/>
+                        <outlet property="departuremapImage" destination="pCg-ql-L6z" id="7Pk-hP-qYs"/>
+                        <outlet property="iconImage" destination="mMt-Gl-eJU" id="EE6-7d-ide"/>
+                        <outlet property="kensakuButton" destination="inu-ix-z3P" id="nP8-5m-dkT"/>
+                        <outlet property="maparrivalButton" destination="G11-GP-teJ" id="boT-Ku-3Lu"/>
+                        <outlet property="mapdepartureButton" destination="bVT-Cx-meH" id="Qfg-gt-LBu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-489.23076923076923" y="2.8436018957345972"/>
+        </scene>
+        <!--Departure-->
+        <scene sceneID="vs5-ig-c8h">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Departure" id="z81-Hw-WYW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="g49-6h-VLw"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RXa-EO-fes" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="451" y="-115"/>
+        </scene>
+        <!--Arrival-->
+        <scene sceneID="NrO-w4-hN4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Arrival" id="dXT-HS-gAU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="3NC-Us-05j"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WSh-lj-bDZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="452" y="135"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="スクリーンショット 2022-11-21 18" width="2988" height="816"/>
+        <image name="方位磁石のフリーアイコン素材 2 (1)" width="512" height="512"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

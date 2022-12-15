@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="viewmap" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="MapViewController" customModule="swift2022a" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hhh-bD-7cS">
+                                <rect key="frame" x="0.0" y="90" width="393" height="762"/>
+                                <gestureRecognizers/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Lqt-dv-h5L" appends="YES" id="Sq8-Ub-hNH"/>
+                                </connections>
+                            </mapView>
+                            <searchBar contentMode="redraw" text="" translatesAutoresizingMaskIntoConstraints="NO" id="x6f-c5-zOr">
+                                <rect key="frame" x="0.0" y="90" width="393" height="56"/>
+                                <color key="backgroundColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="barTintColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="A8K-Bc-YuC"/>
+                                </connections>
+                            </searchBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="戻る" translatesAutoresizingMaskIntoConstraints="NO" id="ffL-At-Zeb">
+                                <rect key="frame" x="9" y="50" width="70" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.98431372640000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="x6f-c5-zOr" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="90" id="5VE-k8-ocq"/>
+                            <constraint firstItem="Hhh-bD-7cS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="BC3-Ak-NKX"/>
+                            <constraint firstItem="x6f-c5-zOr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="BbY-dX-8br"/>
+                            <constraint firstItem="x6f-c5-zOr" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="ZLH-JA-1pW"/>
+                            <constraint firstAttribute="bottom" secondItem="Hhh-bD-7cS" secondAttribute="bottom" id="ajh-Ui-1pi"/>
+                            <constraint firstItem="Hhh-bD-7cS" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="hNB-eQ-skN"/>
+                            <constraint firstItem="Hhh-bD-7cS" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="90" id="tc9-gr-E7e"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Hhh-bD-7cS" id="Gf9-hH-0Su"/>
+                        <outlet property="modoru" destination="ffL-At-Zeb" id="Ewe-q7-6i3"/>
+                        <outlet property="searchField" destination="x6f-c5-zOr" id="oZz-kW-JHb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Lqt-dv-h5L">
+                    <connections>
+                        <action selector="didTapView:" destination="Y6W-OH-hqX" id="4FS-5T-bAg"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="129.00763358778624" y="-35.211267605633807"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="戻る" width="958" height="387"/>
+    </resources>
+</document>

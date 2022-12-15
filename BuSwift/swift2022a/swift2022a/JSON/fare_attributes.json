@@ -1,0 +1,938 @@
+[
+  {
+    "fare_id": "F0100",
+    "price": "100",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0150",
+    "price": "150",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0160",
+    "price": "160",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0170",
+    "price": "170",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0180",
+    "price": "180",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0190",
+    "price": "190",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0200",
+    "price": "200",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0210",
+    "price": "210",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0220",
+    "price": "220",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0230",
+    "price": "230",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0240",
+    "price": "240",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0250",
+    "price": "250",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0260",
+    "price": "260",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0270",
+    "price": "270",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0280",
+    "price": "280",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0290",
+    "price": "290",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0300",
+    "price": "300",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0310",
+    "price": "310",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0320",
+    "price": "320",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0330",
+    "price": "330",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0340",
+    "price": "340",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0350",
+    "price": "350",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0360",
+    "price": "360",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0370",
+    "price": "370",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0380",
+    "price": "380",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0390",
+    "price": "390",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0400",
+    "price": "400",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0410",
+    "price": "410",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0420",
+    "price": "420",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0430",
+    "price": "430",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0440",
+    "price": "440",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0450",
+    "price": "450",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0460",
+    "price": "460",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0470",
+    "price": "470",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0480",
+    "price": "480",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0490",
+    "price": "490",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0500",
+    "price": "500",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0510",
+    "price": "510",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0520",
+    "price": "520",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0530",
+    "price": "530",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0540",
+    "price": "540",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0550",
+    "price": "550",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0560",
+    "price": "560",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0570",
+    "price": "570",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0580",
+    "price": "580",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0590",
+    "price": "590",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0600",
+    "price": "600",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0610",
+    "price": "610",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0620",
+    "price": "620",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0630",
+    "price": "630",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0640",
+    "price": "640",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0650",
+    "price": "650",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0660",
+    "price": "660",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0670",
+    "price": "670",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0680",
+    "price": "680",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0690",
+    "price": "690",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0700",
+    "price": "700",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0710",
+    "price": "710",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0720",
+    "price": "720",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0730",
+    "price": "730",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0740",
+    "price": "740",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0750",
+    "price": "750",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0760",
+    "price": "760",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0770",
+    "price": "770",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0780",
+    "price": "780",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0790",
+    "price": "790",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0800",
+    "price": "800",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0810",
+    "price": "810",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0820",
+    "price": "820",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0830",
+    "price": "830",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0840",
+    "price": "840",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0850",
+    "price": "850",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0860",
+    "price": "860",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0870",
+    "price": "870",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0880",
+    "price": "880",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0890",
+    "price": "890",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0900",
+    "price": "900",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0910",
+    "price": "910",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0920",
+    "price": "920",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0930",
+    "price": "930",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0940",
+    "price": "940",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0950",
+    "price": "950",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0960",
+    "price": "960",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0970",
+    "price": "970",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0980",
+    "price": "980",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F0990",
+    "price": "990",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1000",
+    "price": "1000",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1050",
+    "price": "1050",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1100",
+    "price": "1100",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1150",
+    "price": "1150",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1200",
+    "price": "1200",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1250",
+    "price": "1250",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1300",
+    "price": "1300",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1350",
+    "price": "1350",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1400",
+    "price": "1400",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1450",
+    "price": "1450",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1500",
+    "price": "1500",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1550",
+    "price": "1550",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1600",
+    "price": "1600",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1650",
+    "price": "1650",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1700",
+    "price": "1700",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1750",
+    "price": "1750",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1800",
+    "price": "1800",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1850",
+    "price": "1850",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1900",
+    "price": "1900",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F1950",
+    "price": "1950",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2000",
+    "price": "2000",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2050",
+    "price": "2050",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2100",
+    "price": "2100",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2150",
+    "price": "2150",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2200",
+    "price": "2200",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2400",
+    "price": "2400",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2450",
+    "price": "2450",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2500",
+    "price": "2500",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2550",
+    "price": "2550",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2600",
+    "price": "2600",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  },
+  {
+    "fare_id": "F2750",
+    "price": "2750",
+    "currency_type": "JPY",
+    "payment_method": "0",
+    "transfers": "0",
+    "transfer_duration": ""
+  }
+]
